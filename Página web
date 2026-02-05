@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La 2blea</title>
+    <meta name="UAAAA UAAAAA" content="Conoce la historia del verdadero goat del trap">
+    
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #3B0C0C; /* Anuel AA */
+            color: black;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background: #ffffff;
+            margin: 0 15px;
+            color: #3B0C0C;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 10px solid #3B0C0C;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #333;
+            color: #eee;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Anuel AA</h1>
+        <p>Cantante puertorriqueño, ídolo del género urbano</p>
+    </header>
+
+    <nav>
+    <a href="Anuel niño.jpg" target="_blank" style="color:#1da1f2; text-decoration:none; font-weight:bold;">
+  #Historiahistoria
+        <a href="Album RHLM.jpg" target="_blank" style="color:#1da1f2; text-decoration:none; font-weight:bold;">
+  #Iniciosinicios      
+ <a href="Anuel premios.jpg" target="_blank" style="color:#1da1f2; text-decoration:none; font-weight:bold;">
+  #Premiospremios
+      <a href="anuelAA.jpg" target="_blank" style="color:#1da1f2; text-decoration:none; font-weight:bold;">
+  #cancionesemblemáticas
+</a>
+
+
+    </nav>
+
+    <section id="historia">
+        <h2>Historia</h2>
+    <p>
+   Emmanuel Gazmey Santiago, conocido artísticamente como ''Anuel AA'', es un cantante puertorriqueño nacido en Carolina, el 26 de noviembre de 1992.Es conocido internacionalmente gracias a su éxito como cantante de reggaetón y trap, llegando alzarse como un referente dentro del género.
+</p>
+
+<img src="Anuel niño.jpg" alt="Descripción de la imagen" class="foto-centrada">
+
+<style>
+  .foto-centrada {
+    display: block;
+    margin: 10px auto;   
+    max-width: 200px;    
+    height: auto;
+  }
+</style>
+        </p>
+    </section>
+
+    <section id="Inicios">
+        <h2>Primeros años, carcel y álbum debut"</h2>
+       
+       <p>
+  Anuel comenzó a grabar música a los 14 años y publicó su primera canción en 2010, con el título de ''Demonia'' en colaboración con Jory Boy. Sin embrago, la carrera de Anuel se vió truncada en 2016 debido a su entrada en prisión, causada por la posesión de armas de fuego. Sin embargo,aprovechó su estancia en la federal para continuar grabando música, y trás su salida, el 17 de Julio de 2018 lanzó su álbum debut ''Real Hasta La Muerte'', que fue un exito total, consolidando al puertorriqueño como una superestrella mundial..
+</p>
+
+<img src="Remix.jpg" alt="Descripción de la imagen" class="foto-centrada">
+
+<style>
+  .foto-centrada {
+    display: block;
+    margin: 10px auto;   
+    max-width: 200px;    
+    height: auto;
+  }
+</style>
+        </p>
+    </section>
+
+    <section id=""Premios y Reconocimientos>
+        <h2>2020 y 2021</h2>
+        <p>
+            <p>
+  Tras su exitoso debut, Anuel fue galardondado con diferentes premios de grán calibre dentro de la música urbana: Latin Grammy (2020),Bllboard Latin Music Awards (2020) o el álbum del año(2021)''Las Leyendas Nunca Mueren''.
+</p>
+
+<img src="Bilboard.jpg" alt="Descripción de la imagen" class="foto-centrada">
+
+<style>
+  .foto-centrada {
+    display: block;
+    margin: 10px auto;   
+    max-width: 200px;   
+    height: auto;
+  }
+</style>
+
+        </p>
+    </section>
+    <section id="Top Canciones">
+        <h2>Mis favoritas</h2>
+     <p>
+  
+Os dejo 5 canciones recomendadas para escuchar: Secreto , Una palabra , Esa Cruz, Armado 100pre Andamos y Mcgregor
+.
+</p>
+
+<img src="Mix.jpg" alt="Descripción de la imagen" class="foto-centrada">
+
+<style>
+  .foto-centrada {
+    display: block;
+    margin: 10px auto;   
+    max-width: 200px;    
+    height: auto;
+  }
+</style>
+</p>
+    </section>
+ <section id="Juego">
+        <h2>¿Os atreveís?</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de Clics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+
+    #gameArea {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      margin: 20px auto;
+      background-color: white;
+      border: 2px solid #333;
+    }
+
+    #item {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-color: red;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    #info {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎯 Caza el círculo</h1>
+  <div id="info">
+    Puntos: <span id="score">0</span> |
+    Tiempo: <span id="time">30</span>s
+  </div>
+
+  <div id="gameArea">
+    <div id="item"></div>
+  </div>
+
+  <script>
+    const item = document.getElementById("item");
+    const gameArea = document.getElementById("gameArea");
+    const scoreSpan = document.getElementById("score");
+    const timeSpan = document.getElementById("time");
+
+    let score = 0;
+    let timeLeft = 30;
+
+    function moverItem() {
+      const maxX = gameArea.clientWidth - item.clientWidth;
+      const maxY = gameArea.clientHeight - item.clientHeight;
+
+      const x = Math.random() * maxX;
+      const y = Math.random() * maxY;
+
+      item.style.left = x + "px";
+      item.style.top = y + "px";
+    }
+
+    item.addEventListener("click", () => {
+      score++;
+      scoreSpan.textContent = score;
+      moverItem();
+    });
+
+    const timer = setInterval(() => {
+      timeLeft--;
+      timeSpan.textContent = timeLeft;
+
+      if (timeLeft <= 0) {
+        clearInterval(timer);
+        item.style.display = "none";
+        alert("¡Juego terminado! Puntuación final: " + score);
+      }
+    }, 1000);
+
+    moverItem();
+  </script>
+
+</body>
+
+</html>
+
+
+    <footer>
+        © 2026 - Web dedicada a Anuel AA periquitonex
+    </footer>
+
+</body>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/698338e9f7e5251c375ad29e/1jgk9ck58';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</html>
