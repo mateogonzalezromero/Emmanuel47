@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de Clics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+
+    #gameArea {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      margin: 20px auto;
+      background-color: white;
+      border: 2px solid #333;
+    }
+
+    #item {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-color: red;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    #info {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎯 Caza el círculo</h1>
+  <div id="info">
+    Puntos: <span id="score">0</span> |
+    Tiempo: <span id="time">30</span>s
+  </div>
+
+  <div id="gameArea">
+    <div id="item"></div>
+  </div>
+
+  <script>
+    const item = document.getElementById("item");
+    const gameArea = document.getElementById("gameArea");
+    const scoreSpan = document.getElementById("score");
+    const timeSpan = document.getElementById("time");
+
+    let score = 0;
+    let timeLeft = 30;
+
+    function moverItem() {
+      const maxX = gameArea.clientWidth - item.clientWidth;
+      const maxY = gameArea.clientHeight - item.clientHeight;
+
+      const x = Math.random() * maxX;
+      const y = Math.random() * maxY;
+
+      item.style.left = x + "px";
+      item.style.top = y + "px";
+    }
+
+    item.addEventListener("click", () => {
+      score++;
+      scoreSpan.textContent = score;
+      moverItem();
+    });
+
+    const timer = setInterval(() => {
+      timeLeft--;
+      timeSpan.textContent = timeLeft;
+
+      if (timeLeft <= 0) {
+        clearInterval(timer);
+        item.style.display = "none";
+        alert("¡Juego terminado! Puntuación final: " + score);
+      }
+    }, 1000);
+
+    moverItem();
+  </script>
